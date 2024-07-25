@@ -18,7 +18,9 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({food, restaurantName, ad
             className="w-16 h-16 rounded-full"
             />
             <View className="ml-4">
+              <Link href='/restaurants'>
                 <Text className="font-bold">{ restaurantName }</Text>
+              </Link>
                 <Text>{ address }</Text>
             </View>
         </View>
